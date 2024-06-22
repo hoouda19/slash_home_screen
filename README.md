@@ -3,7 +3,6 @@
 
 # First Run
 
-The project is configured with mock data if you run the **MOCK** flavor. See the next section for configuring run configurations.
 
 After installing the package dependencies with 
 

@@ -27,39 +27,6 @@ class Product {
       image: json['image'],
     );
   }
-
-// class UserViewModel {
-//   Future<List<User>> fetchUsers() async {
-//     final String response = await rootBundle.loadString('assets/data.json');
-//     final List<dynamic> data = json.decode(response);
-//     return data.map((json) => User.fromJson(json)).toList();
-//   }
-// }
-
-//   List<productModel> bestSellingsList = [];
-//   List<productModel> newArrivalList = [];
-//   List<productModel> recommendedForYouList = [];
-
-//   void loadJsonFromAssets() async {
-//     String jsonString =
-//         await rootBundle.loadString('assets/json_file/dummyData.json');
-//     Map<String, dynamic> jsonData = jsonDecode(jsonString);
-//     bestSellingsList.add(productModel(
-//         id: jsonData['bestSelling']['id'],
-//         image: jsonData['bestSelling']['image'],
-//         name: jsonData['bestSelling']['name'],
-//         price: jsonData['bestSelling']['price']));
-//     newArrivalList.add(productModel(
-//         id: jsonData['newArrival']['id'],
-//         image: jsonData['newArrival']['image'],
-//         name: jsonData['newArrival']['name'],
-//         price: jsonData['newArrival']['price']));
-//     recommendedForYouList.add(productModel(
-//         id: jsonData['recommendedForYou']['id'],
-//         image: jsonData['recommendedForYou']['image'],
-//         name: jsonData['recommendedForYou']['name'],
-//         price: jsonData['recommendedForYou']['price']));
-//   }
 }
 
 class ProductList {

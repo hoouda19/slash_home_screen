@@ -1,16 +1,18 @@
 # slash_app
 
-A new Flutter project.
 
-## Getting Started
+# First Run
 
-This project is a starting point for a Flutter application.
+The project is configured with mock data if you run the **MOCK** flavor. See the next section for configuring run configurations.
 
-A few resources to get you started if this is your first Flutter project:
+After installing the package dependencies with 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+run the code generation tool 
+
+```
+flutter pub run build_runner build
+```
